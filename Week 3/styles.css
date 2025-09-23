@@ -1,0 +1,18 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1 {
+    margin-bottom: 0.5px;
+}
+h2 {
+    margin-bottom: 0.5px;
+}
+p {
+    margin-bottom: 0.5px;
+}
+blockquote {
+    outline: 6px ridge #2C71C6;
+    outline-offset: 0px;
+}
