@@ -1,0 +1,36 @@
+:root {
+    background-color: #E2E2E2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    color: #1C4220;
+    header {
+        background-color: #1C4220;
+        color: #E2E2E2;
+    }
+    div#ingredients {
+        background-color: #63B0CD;
+    }
+    div#cooking {
+        background-color: #F7717D;
+    }
+}
+@media (prefers-color-scheme: dark) {
+:root {
+    background-color: #474747;
+    color: #3D8F45;
+    header {
+        background-color: #3D8F45;
+        color: #474747;
+    }
+    div#ingredients {
+        background-color: #1E4C5C;
+    }
+    div#cooking {
+        background-color: #894047;
+    }
+}
+}
+img {
+    max-width: 75%;
+    height: auto;
+}
